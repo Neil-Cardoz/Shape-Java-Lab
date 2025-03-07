@@ -88,6 +88,17 @@ public class Main {
                         System.out.println("Perimeter of Circle: " + circle.calculatePerimeter());
                         break;
 
+                    case 6: // Sphere
+                        System.out.println("Enter radius of Sphere: ");
+                        double radius2 = Double.parseDouble(scan.nextLine());
+
+                        Sphere sphere = new Sphere(radius2);
+                        System.out.println("Total Surface Area of Sphere: " + sphere.calculateArea());
+                        System.out.println("Perimeter of Sphere: " + sphere.calculatePerimeter());
+                        System.out.println("Volume of Sphere: " + sphere.calculateVolume());
+                        break;
+
+
 
     }
 }
