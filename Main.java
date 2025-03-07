@@ -98,6 +98,18 @@ public class Main {
                         System.out.println("Volume of Sphere: " + sphere.calculateVolume());
                         break;
 
+                    case 7: // Cylinder
+                        System.out.println("Enter radius of Cylinder: ");
+                        double radius3 = Double.parseDouble(scan.nextLine());
+
+                        System.out.println("Enter height of Cylinder: ");
+                        double height2 = Double.parseDouble(scan.nextLine());
+
+                        Cylinder cylinder = new Cylinder(radius3, height2);
+                        System.out.println("Total Surface Area of Cylinder: " + cylinder.calculateArea());
+                        System.out.println("Perimeter of Cylinder: " + cylinder.calculatePerimeter());
+                        System.out.println("Volume of Cylinder: " + cylinder.calculateVolume());
+                        break;
 
 
     }
