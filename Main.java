@@ -45,7 +45,7 @@ public class Main {
                         System.out.println("Perimeter of Triangle: " + triangle.calculatePerimeter());
                         break;
 
-                }
+
 
                     case 2: // Rectangle
                     System.out.println("Enter length of Rectangle: ");
@@ -69,6 +69,24 @@ public class Main {
                     System.out.println("Perimeter of Cube: " + cube.calculatePerimeter());
                     System.out.println("Volume of Cube: " + cube.calculateVolume());
                     break;
+
+                    case 4: // Square
+                    System.out.println("Enter side of Square: ");
+                    double side2 = Double.parseDouble(scan.nextLine());
+
+                    Square square = new Square(side2);
+                    System.out.println("Area of Square: " + square.calculateArea());
+                    System.out.println("Perimeter of Square: " + square.calculatePerimeter());
+                    break;
+
+                    case 5: // Circle
+                        System.out.println("Enter radius of Circle: ");
+                        double radius = Double.parseDouble(scan.nextLine());
+
+                        Circle circle = new Circle(radius);
+                        System.out.println("Area of Circle: " + circle.calculateArea());
+                        System.out.println("Perimeter of Circle: " + circle.calculatePerimeter());
+                        break;
 
 
     }
