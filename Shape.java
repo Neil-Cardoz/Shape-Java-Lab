@@ -20,7 +20,26 @@ abstract class Shape {
         this.num_sides = num_sides;
 
     }
+    public int getNumSides(){
+        return num_sides;
+    }
 
+    public double getDim_one() {
+        return dim_one;
+    }
+
+    public double getDim_two() {
+        return dim_two;
+    }
+
+    public double getDim_three() {
+        return dim_three;
+    }
+
+
+    //Abstract Methods
+    abstract public double calculateArea();
+    abstract public double calculatePerimeter();
 
 
 }
