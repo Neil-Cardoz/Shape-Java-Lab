@@ -131,5 +131,6 @@ public class Main {
                     default:
                         System.out.println("Invalid choice! Please enter a number between 1 and 9.");
                 }
+                System.out.println("-------------------------------------------\n");
     }
 }
