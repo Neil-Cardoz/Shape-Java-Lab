@@ -123,5 +123,13 @@ public class Main {
                         System.out.println("Perimeter of Base of Equilateral Pyramid: " + ep.calculatePerimeter());
                         System.out.println("Volume of Equilateral Pyramid: " + ep.calculateVolume());
                         break;
+
+                    case 9: // Exit program
+                        System.out.println("\nExiting program... Thank you!");
+                        scan.close();
+                        return;
+                    default:
+                        System.out.println("Invalid choice! Please enter a number between 1 and 9.");
+                }
     }
 }
