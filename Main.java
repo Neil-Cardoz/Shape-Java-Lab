@@ -60,5 +60,16 @@ public class Main {
                     break;
 
 
+                    case 3: // Cube
+                    System.out.println("Enter side of Cube: ");
+                    double side = Double.parseDouble(scan.nextLine());
+
+                    Cube cube = new Cube(side);
+                    System.out.println("Total Surface Area of Cube: " + cube.calculateArea());
+                    System.out.println("Perimeter of Cube: " + cube.calculatePerimeter());
+                    System.out.println("Volume of Cube: " + cube.calculateVolume());
+                    break;
+
+
     }
 }
