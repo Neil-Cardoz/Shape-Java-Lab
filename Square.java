@@ -2,14 +2,17 @@
 
 
 class Square extends Shape{
+	public Square(double side){
+		super(side,0,0,4);
+	}
 
 	@Override
 	public double calculateArea() {
-		return 0;
+		return dim_one * dim_one;;
 	}
 
 	@Override
 	public double calculatePerimeter() {
-		return 0;
+		return  4 * (dim_one);
 	}
 }
