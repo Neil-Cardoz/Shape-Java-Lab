@@ -47,6 +47,18 @@ public class Main {
 
                 }
 
+                    case 2: // Rectangle
+                    System.out.println("Enter length of Rectangle: ");
+                    double length = Double.parseDouble(scan.nextLine());
+
+                    System.out.println("Enter breadth of Rectangle: ");
+                    double breadth = Double.parseDouble(scan.nextLine());
+
+                    Rectangle rectangle = new Rectangle(length, breadth);
+                    System.out.println("Area of Rectangle: " + rectangle.calculateArea());
+                    System.out.println("Perimeter of Rectangle: " + rectangle.calculatePerimeter());
+                    break;
+
 
     }
 }
