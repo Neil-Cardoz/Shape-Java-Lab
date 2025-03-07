@@ -3,18 +3,25 @@
 
 class Cube extends Shape implements VolumeInterface{
 
-	@Override
-	public double calculateArea() {
-		return 0;
+	public Cube(double side){
+		super(side,0,0,6);
 	}
 
 	@Override
-	public double calculatePerimeter() {
-		return 0;
+	public double calculateArea(){
+		return 6 * dim_one * dim_one;
 	}
 
+
 	@Override
-	public double calculateVolume() {
-		return 0;
+	public double calculatePerimeter(){
+		return 12 * dim_one;
 	}
+
+
+	@Override
+	public double calculateVolume(){
+		return dim_one * dim_one * dim_one;
+	}
+
 }
