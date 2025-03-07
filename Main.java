@@ -33,6 +33,19 @@ public class Main {
                 System.out.println("-------------------------------------------");
 
                 switch (choice) {
+                    case 1: // Triangle
+                        System.out.println("Enter base of Triangle: ");
+                        double base = Double.parseDouble(scan.nextLine());
+
+                        System.out.println("Enter height of Triangle: ");
+                        double height = Double.parseDouble(scan.nextLine());
+
+                        Triangle triangle = new Triangle(base, height);
+                        System.out.println("Area of Triangle: " + triangle.calculateArea());
+                        System.out.println("Perimeter of Triangle: " + triangle.calculatePerimeter());
+                        break;
+
+                }
 
 
     }
