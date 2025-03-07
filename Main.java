@@ -28,5 +28,12 @@ public class Main {
                 System.out.println("9. Exit");
                 System.out.println("**********************************************************");
                 System.out.print("Enter your choice: ");
+
+                int choice = Integer.parseInt(scan.nextLine());
+                System.out.println("-------------------------------------------");
+
+                switch (choice) {
+
+
     }
 }
