@@ -8,7 +8,7 @@ class Square extends Shape{
 
 	@Override
 	public double calculateArea() {
-		return dim_one * dim_one;;
+		return dim_one * dim_one;
 	}
 
 	@Override
